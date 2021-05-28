@@ -65,7 +65,7 @@ describe('create-an-issue', () => {
 
   it('creates a new issue from a different template', async () => {
     process.env.INPUT_FILENAME = '.github/different-template.md'
-    tools.context.payload = { repository: { owner: { login: 'buluma' }, name: 'waddup' } }
+    tools.context.payload = { repository: { owner: { login: 'JasonEtco' }, name: 'waddup' } }
     await createAnIssue(tools)
     expect(params).toMatchSnapshot()
     expect(tools.log.success).toHaveBeenCalled()
@@ -97,7 +97,7 @@ describe('create-an-issue', () => {
   })
 
   it('creates a new issue with an assignee passed by input', async () => {
-    process.env.INPUT_ASSIGNEES = 'buluma'
+    process.env.INPUT_ASSIGNEES = 'octocat'
     await createAnIssue(tools)
     expect(params).toMatchSnapshot()
     expect(tools.log.success).toHaveBeenCalled()
@@ -105,7 +105,7 @@ describe('create-an-issue', () => {
   })
 
   it('creates a new issue with multiple assignees passed by input', async () => {
-    process.env.INPUT_ASSIGNEES = 'buluma, octocat'
+    process.env.INPUT_ASSIGNEES = 'octocat, JasonEtco'
     await createAnIssue(tools)
     expect(params).toMatchSnapshot()
     expect(tools.log.success).toHaveBeenCalled()

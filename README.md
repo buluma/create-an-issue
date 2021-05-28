@@ -1,6 +1,6 @@
 <h3 align="center">Create an Issue Action</h3>
 <p align="center">A GitHub Action that creates a new issue using a template file.<p>
-<p align="center"><a href="https://github.com/buluma/create-an-issue"><img alt="GitHub Actions status" src="https://github.com/buluma/create-an-issue/workflows/Node%20CI/badge.svg"></a> <a href="https://codecov.io/gh/buluma/create-an-issue/"><img src="https://badgen.now.sh/codecov/c/github/buluma/create-an-issue" alt="Codecov"></a></p>
+<p align="center"><a href="https://github.com/buluma/create-an-issue"><img alt="GitHub Actions status" src="https://github.com/buluma/create-an-issue/workflows/Node%20CI/badge.svg"></a> <a href="https://codecov.io/gh/buluma/create-an-issue/"><img src="https://codecov.io/gh/buluma/create-an-issue/branch/main/graph/badge.svg?token=yNmqPIpAC3" alt="Codecov"></a></p>
 
 ## Usage
 

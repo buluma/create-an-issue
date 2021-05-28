@@ -38,7 +38,7 @@ exports[`create-an-issue creates a new issue when updating existing issues is en
 Object {
   "assignees": Array [
     "octocat",
-    "buluma",
+    "JasonEtco",
   ],
   "body": "Goodbye!",
   "labels": Array [],
@@ -51,7 +51,7 @@ exports[`create-an-issue creates a new issue with a milestone passed by input 1`
 Object {
   "assignees": Array [
     "octocat",
-    "buluma",
+    "JasonEtco",
   ],
   "body": "Goodbye!",
   "labels": Array [],
@@ -82,7 +82,7 @@ Array [
 exports[`create-an-issue creates a new issue with assignees and labels as comma-delimited strings 1`] = `
 Object {
   "assignees": Array [
-    "buluma",
+    "JasonEtco",
     "matchai",
   ],
   "body": "The action create-an-issue is the best action.",
@@ -105,7 +105,7 @@ Array [
 exports[`create-an-issue creates a new issue with assignees, labels and a milestone 1`] = `
 Object {
   "assignees": Array [
-    "buluma",
+    "JasonEtco",
   ],
   "body": "The action create-an-issue is the best action.",
   "labels": Array [
@@ -128,7 +128,7 @@ exports[`create-an-issue creates a new issue with multiple assignees passed by i
 Object {
   "assignees": Array [
     "octocat",
-    "buluma",
+    "JasonEtco",
   ],
   "body": "Goodbye!",
   "labels": Array [],
@@ -197,7 +197,7 @@ exports[`create-an-issue updates an existing issue with the same title 1`] = `
 Object {
   "assignees": Array [
     "octocat",
-    "buluma",
+    "JasonEtco",
   ],
   "body": "Goodbye!",
   "labels": Array [],

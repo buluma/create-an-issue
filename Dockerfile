@@ -5,9 +5,9 @@ LABEL "com.github.actions.description"="Creates a new issue using a template wit
 LABEL "com.github.actions.icon"="alert-circle"
 LABEL "com.github.actions.color"="gray-dark"
 
-LABEL "repository"="https://github.com/buluma/create-an-issue"
-LABEL "homepage"="https://github.com/buluma/create-an-issue"
-LABEL "maintainer"="Michael Buluma"
+LABEL "repository"="https://github.com/JasonEtco/create-an-issue"
+LABEL "homepage"="https://github.com/JasonEtco/create-an-issue"
+LABEL "maintainer"="Jason Etcovitch <jasonetco@github.com>"
 
 COPY package*.json ./
 RUN npm ci
